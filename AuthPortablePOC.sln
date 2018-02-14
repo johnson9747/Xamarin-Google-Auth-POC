@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthPortablePOC.Android", "AuthPortablePOC\AuthPortablePOC.Android\AuthPortablePOC.Android.csproj", "{B6C19C9D-54FB-450C-83D7-73F21D8B610B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthPortablePOC", "AuthPortablePOC\AuthPortablePOC\AuthPortablePOC.csproj", "{47A41844-7577-416E-8BB9-6DA6BC459BA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6C19C9D-54FB-450C-83D7-73F21D8B610B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C19C9D-54FB-450C-83D7-73F21D8B610B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C19C9D-54FB-450C-83D7-73F21D8B610B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B6C19C9D-54FB-450C-83D7-73F21D8B610B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C19C9D-54FB-450C-83D7-73F21D8B610B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C19C9D-54FB-450C-83D7-73F21D8B610B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{47A41844-7577-416E-8BB9-6DA6BC459BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A41844-7577-416E-8BB9-6DA6BC459BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A41844-7577-416E-8BB9-6DA6BC459BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A41844-7577-416E-8BB9-6DA6BC459BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00A3013C-02A1-4714-B099-A8DE2C5B3755}
+	EndGlobalSection
+EndGlobal

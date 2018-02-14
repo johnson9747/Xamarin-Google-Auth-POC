@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.AuthPortablePOC" android:installLocation="auto">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application android:label="AuthPortablePOC.Android" android:debuggable="true" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:label="CustomUrlSchemeInterceptorActivity" android:launchMode="singleTop" android:noHistory="true" android:name="md5f3d8730488abcdde2517c249627c813f.CustomUrlSchemeInterceptorActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:path="/oauth2redirect" />
+        <data android:scheme="com.xamarin.traditional.standard.samples.oauth.providers.android" />
+        <data android:scheme="com.googleusercontent.apps.942669806485-p8ackvupfotuufh76sk39dss6ooiiccs" />
+        <data android:scheme="xamarin-auth" />
+      </intent-filter>
+    </activity>
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="AuthPortablePOC" android:theme="@style/MainTheme" android:name="md5f3d8730488abcdde2517c249627c813f.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <service android:name="md59f70a99687498e7ba187118950981d26.KeepAliveService" />
+    <activity android:label="Web Authenticator" android:name="md53c585be971e02235139fd1aef11fc0c1.FormAuthenticatorActivity" />
+    <activity android:label="Web Authenticator" android:name="md53c585be971e02235139fd1aef11fc0c1.WebAuthenticatorActivity" />
+    <activity android:label="@string/title_activity_webview" android:theme="@android:style/Theme.DeviceDefault" android:name="md53c585be971e02235139fd1aef11fc0c1.WebViewActivity" />
+    <activity android:label="Web Authenticator Native Broswer" android:launchMode="singleTop" android:noHistory="true" android:name="md53c585be971e02235139fd1aef11fc0c1.WebAuthenticatorNativeBrowserActivity" />
+    <receiver android:name="md53c585be971e02235139fd1aef11fc0c1.CustomTabsActionsBroadcastReceiver" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.AuthPortablePOC.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.AuthPortablePOC" />
+      </intent-filter>
+    </receiver>
+    <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+  </application>
+</manifest>

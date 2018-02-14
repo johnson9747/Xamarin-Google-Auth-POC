@@ -1,0 +1,12 @@
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\bin\Release\netstandard2.0\AuthPortablePOC.deps.json
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\bin\Release\netstandard2.0\AuthPortablePOC.dll
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\bin\Release\netstandard2.0\AuthPortablePOC.pdb
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\obj\Release\netstandard2.0\AuthPortablePOC.csprojResolveAssemblyReference.cache
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\obj\Release\netstandard2.0\AuthPortablePOC.csproj.CoreCompileInputs.cache
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\obj\Release\netstandard2.0\AuthPortablePOC.App.xaml.g.cs
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\obj\Release\netstandard2.0\AuthPortablePOC.Login.xaml.g.cs
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\obj\Release\netstandard2.0\AuthPortablePOC.MainPage.xaml.g.cs
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\obj\Release\netstandard2.0\AuthPortablePOC.AssemblyInfoInputs.cache
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\obj\Release\netstandard2.0\AuthPortablePOC.AssemblyInfo.cs
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\obj\Release\netstandard2.0\AuthPortablePOC.dll
+C:\Users\QBuser\source\repos\AuthPortablePOC\AuthPortablePOC\AuthPortablePOC\obj\Release\netstandard2.0\AuthPortablePOC.pdb

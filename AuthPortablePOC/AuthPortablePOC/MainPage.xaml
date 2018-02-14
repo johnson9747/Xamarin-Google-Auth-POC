@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AuthPortablePOC"
+             x:Class="AuthPortablePOC.MainPage"
+			 Title="Home">
+	<StackLayout>
+		<StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" >
+			<StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+				<Button Text="Show Profile" x:Name="btnShowProfile" ></Button>
+			</StackLayout>
+			<StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+				<Button Text="Clear" x:Name="btnClear" ></Button>
+			</StackLayout>
+		</StackLayout>
+		<StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" >
+		<StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+				<Button Text="Refresh Token" x:Name="btnRefreshToken" ></Button>
+			</StackLayout>
+			<StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+				<Button Text="Logout" x:Name="btnLogout" ></Button>
+			</StackLayout>
+		</StackLayout>
+		<StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+			<Label Text="" x:Name="lblName"
+           VerticalOptions="Start" 
+           HorizontalOptions="Start" />
+			<Label Text="" x:Name="lblEmail"
+           VerticalOptions="Start" 
+           HorizontalOptions="Start" />
+			<Image HorizontalOptions="Start" VerticalOptions="Start" x:Name="imgPRofile" WidthRequest="300" HeightRequest="200" />
+		</StackLayout>
+	</StackLayout>
+
+</ContentPage>
